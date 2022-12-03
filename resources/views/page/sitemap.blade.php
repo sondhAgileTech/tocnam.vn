@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>{{asset('')}}</loc>
+  <lastmod>{{$time}}</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+@foreach($data as $key=>$value)
+@if($key<100)
+<url>
+  <loc>{{asset('')}}{{$value->slug_cate}}/{{$value->slugs}}</loc>
+  <lastmod>{{$time}}</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+@else
+<url>
+  <loc>{{asset('')}}{{$value->slug_cate}}/{{$value->slugs}}</loc>
+  <lastmod>{{$time}}</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.30</priority>
+</url>
+@endif
+@endforeach
+</urlset>

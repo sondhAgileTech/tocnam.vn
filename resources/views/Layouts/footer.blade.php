@@ -57,7 +57,7 @@
 </footer>
 </div>
 <script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1381887742135652");fbq("set","agent","tmgoogletagmanager","1381887742135652");fbq("track","PageView");</script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalRPNamespace=p.GlobalRPNamespace||[];
   p.GlobalRPNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
   };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
@@ -73,5 +73,5 @@
   window.rp.trackPageView = function () {
     window.rpns('trackPageView');
   };
-</script>
+</script> -->
 <!-- /Footer -->
